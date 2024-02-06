@@ -1,7 +1,40 @@
+<!doctype html>
+<html>
+  <head>
 <link rel="stylesheet" href="https://unpkg.com/98.css" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./style.css">
 <link rel="icon" type="favicon" href="/hub/New Piskel.png">
+<script>function makeDark() {
+  var exploding = document.getElementById("stupif");
+  exploding.classList.toggle("accessib");
+  var urmom = document.getElementById("scree");
+  urmom.classList.toggle("accessib");
+}
+
+var blinkclik = true;
+function noBlink() {
+  var funkyvar = document.getElementById("blinkies");
+  var testvar = document.getElementById("blinkies_again");
+  funkyvar.classList.toggle("nogif");
+  testvar.classList.toggle("nogif");
+  if (blinkclik == true) {
+    document.getElementById("blinkbutton").innerHTML = "click to turn on gifs";
+    blinkclik = false;
+  } else {
+    if (blinkclik == false) {
+      document.getElementById("blinkbutton").innerHTML =
+        "click to turn off gifs";
+      blinkclik = true;
+    }
+  }
+}
+
+    console.log("the errors and warnings are caused by the third party sources, i am so sorry\nim gonna try to get it figured out")
+    console.log("also hi!!!")
+  </script>
+  </head>
+  <body class="normal" id="stupif">
 <div class="window" style="width: 1290px">
   <div class="title-bar">
     <div class="title-bar-text">the things creek produces with their three (and a half) neurons</div>
@@ -10,7 +43,8 @@
     </div>
   </div>
   <div class="window-body">
-    <a href="https://liquid-sunset-over-stone.github.io/general_page/">go back to general</a><br><br>
+    <a href="https://liquid-sunset-over-stone.github.io/general_page/">go back to general</a>
+    <button onclick="makeDark()">toggle background gradient</button><br><br>
     <div class="window">
       <div class="title-bar">
         <div class="title-bar-text">my first ever thought (about device addiction)</div>
@@ -21,5 +55,7 @@
     </div>
   </div>
 </div>
+  </body>
+</html>
 </div>
 </div>
